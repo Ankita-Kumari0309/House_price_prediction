@@ -55,7 +55,7 @@ def set_background(image_path):
 set_background("Image.png")
 
 # 📦 Load model and columns
-with open("mode.pickle", "rb") as f:
+with open("model.pickle", "rb") as f:
     model = pickle.load(f)
 
 with open("columns.json", "r") as f:
